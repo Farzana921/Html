@@ -1,1 +1,1 @@
-# Html
+# Simple HTML website for recipes.
