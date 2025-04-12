@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add a Recipe</title>
+</head>
+<body style="background-color: rgb(221, 214, 186);">
+  <header>
+    <nav>
+      <a href="index.html"><i>Home</i></a> |
+      <a href="add-recipe.html"><i>Add Recipe</i></a> |
+      <a href="recipe-list.html"><i>Recipe List</i></a> |
+      <a href="recipe-details.html"><i>recipe-details</i></a>
+    </nav>
+  </header>
+  <hr>
+
+  <h1>Add a New Recipe to My Collection</h1>
+
+  <form>
+    <label for="name">Recipe Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="ingredients">Ingredients:</label><br>
+    <textarea id="ingredients" name="ingredients" rows="5" required></textarea><br><br>
+
+    <label for="instructions">Cooking Instructions:</label><br>
+    <textarea id="instructions" name="instructions" rows="5" required></textarea><br><br>
+
+    <label for="image">Image URL:</label><br>
+    <input type="text" id="image" name="image"><br><br>
+
+    <label for="category">Category:</label><br>
+    <select id="category" name="category" required>
+      <option value="">--Select Category--</option>
+      <option value="Desserts">Desserts</option>
+      <option value="Appetizers">Appetizers</option>
+      <option value="Vegan">Vegan</option>
+      <option value="Quick Meals">Quick Meals</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit Recipe">
+  </form>
+</body>
+</html>
+
